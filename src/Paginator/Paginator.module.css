@@ -3,24 +3,34 @@
 }
 
 .selectedPage {
-    font-weight: bold;
-    font-size: 30px;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    user-select: none;
+    font-weight: 600;
+    color: rgb(69, 69, 255);
+    border: 1px solid rgb(69, 69, 255);
+    padding: 10px;
+    border-radius: 10px;    
 }
 
 .pageNumber {
+    font-weight: 400;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
+    margin: auto;
+    padding: 10px;
     cursor: pointer;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    user-select: none;
 }
 
 .pageNumber:hover {
     background-color: rgba(192, 192, 192, 0.507);
+}
+
+.button {
+    cursor: pointer;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    padding: 5px 10px 5px 10px;
+}
+
+.button:hover {
+    border-radius: 5px;
+    background-color: rgba(209, 209, 209, 0.541);
 }
